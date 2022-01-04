@@ -1,0 +1,6 @@
+,Chromosome,Start,End,Gene,Orientation,Start2,End2
+0,Chromosome,1,200,GeneA,+,1,200
+1,Chromosome,201,400,GeneB,+,201,400
+2,Chromosome,401,600,GeneC,+,401,600
+3,Chromosome,601,800,GeneD,+,601,800
+4,Chromosome,801,1000,GeneE,+,801,1000
