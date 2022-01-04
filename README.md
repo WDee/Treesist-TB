@@ -4,11 +4,11 @@ A modified decision tree approach to improve the prediction and mutation discove
 # Installation 
 The modified decision tree requires adjusting the default sklearn decision tree. the following steps are needed. 1. Copy the five files from the directory "new_splitter". 2. Create an activate a new virtual environment following the code steps as per below 
 
-`conda create --name py3 python=3.6 ipykernel jupyter anaconda scipy graphviz pydotplus python-graphviz cython gxx_linux-64
-`conda activate py3
-`ipython kernel install --name py3 --user
-`conda install gxx_linux-64
-`export PATH=$PATH:/#enteryourpath#/anaconda2/envs/py3/bin
+`conda create --name py3 python=3.6 ipykernel jupyter anaconda scipy graphviz pydotplus python-graphviz cython gxx_linux-64'
+`conda activate py3'
+`ipython kernel install --name py3 --user'
+`conda install gxx_linux-64'
+`export PATH=$PATH:/#enteryourpath#/anaconda2/envs/py3/bin'
 
 It migth be needed to find and subsequently rename the quad_tree files, e.g. approximately as per below (after locating and going to the right directory):
 mv _quad_tree.pxd quad_tree.pxd
